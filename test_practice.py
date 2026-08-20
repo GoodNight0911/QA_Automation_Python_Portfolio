@@ -17,5 +17,5 @@ def test_login_form(page: Page):
     # 5. Кликаем по кнопке «Войти»
     page.get_by_role("button", name="Войти").click()
 
-    # Пауза, чтобы вы увидели результат перед закрытием
+    # Пауза, чтобы увидели результат перед закрытием
     page.wait_for_timeout(5000)
